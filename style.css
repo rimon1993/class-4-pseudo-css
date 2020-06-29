@@ -1,0 +1,60 @@
+h1:hover {
+    color:red;
+    font-size: 40px;
+}
+
+.focus :focus {
+  
+    color:red;
+    background-color: yellowgreen;
+    font-size: 40px;
+
+}
+
+.jor-bijor :nth-child(2n+1){
+background-color: brown;
+}
+
+
+a:visited{
+    color:orangered;
+}
+
+.befor ::before {
+
+    content: " Rimon " ;
+    color: green;
+}
+
+.after ::after {
+    content: " bay";
+    color:red;
+}
+
+.rimon {
+
+    background-color: khaki;
+}
+
+div {
+
+    height: 100px;
+    width: 100px;
+}
+
+#f {
+    background-color: lawngreen;
+}
+
+#s {
+    background-color: lightcoral;
+    position: relative;
+    left: 20px;
+
+}
+
+#t {
+    background-color: red;
+    position: relative;
+    left: 40px;
+}
