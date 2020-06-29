@@ -77,3 +77,14 @@ div {
     position: fixed;
     top: 50px;
 }
+
+
+.overflow {
+
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid ;
+    overflow: auto;
+}
