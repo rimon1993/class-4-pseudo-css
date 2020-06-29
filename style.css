@@ -74,6 +74,6 @@ div {
 
 #x {
     background-color: blue;
-    position: relative;
+    position: fixed;
     top: 50px;
 }
