@@ -11,6 +11,10 @@ h1:hover {
 
 }
 
+.jor-bijor{
+
+    margin-top: 50px;
+}
 .jor-bijor :nth-child(2n+1){
 background-color: brown;
 }
@@ -44,17 +48,32 @@ div {
 
 #f {
     background-color: lawngreen;
+    position: relative;
+    left:100px;
 }
 
 #s {
     background-color: lightcoral;
     position: relative;
-    left: 20px;
+    left: 0;
 
 }
 
 #t {
     background-color: red;
     position: relative;
-    left: 40px;
+    left: 100px;
+}
+
+#r {
+
+    background-color: aqua;
+    position:absolute;
+    left: 100px;
+}
+
+#x {
+    background-color: blue;
+    position: relative;
+    top: 50px;
 }
