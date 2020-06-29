@@ -88,3 +88,20 @@ div {
     border: 2px solid ;
     overflow: auto;
 }
+
+.media {
+
+    height: 300px;
+    width: 300px;
+    background: red;
+}
+
+@media screen and (min-width: 480px )
+
+{
+
+    .media {
+        background: chartreuse;
+    }
+}
+
